@@ -1,0 +1,71 @@
+body {
+    background-color: #F1F4F3;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #60605B;
+}
+.header {
+    background-color: #1B98E1;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.header h1 {
+    float: left;
+    margin: 12px 0 0 20px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: normal;
+}
+.header .options {
+    margin: 8px 20px 0 0;
+}
+.header .options a{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+form#configuration {
+    display: inline-table;
+    width: 100%;
+    padding: 15px 20px 0;
+}
+.btn-custom {
+    background: #60605B;
+    color: #fff;
+}
+.btn-custom:hover {
+    color: #fff;
+}
+.issues-list {
+    display: inline-table;
+    width: 100%;
+    padding: 4px 20px 0;
+}
+.issues-list ul {
+    width: 100%;
+    display: inline-table;
+}
+.issues-list ul .title {
+    margin: 8px 0 0 0;
+    font-weight: bold;
+    color: #1B98E1;
+    font-size: 20px;
+}
+.issues-list ul li {
+    font-size: 15px;
+    margin: 7px 0;
+}
+.issues-list ul span.labels {
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin: 0 3px;
+}
+span {
+    color: #00A7E1;
+}

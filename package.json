@@ -1,0 +1,14 @@
+{
+  "name": "github-desktop-menu",
+  "version": "1.0.0",
+  "description": "Github Mac menu to notify the status of the open issues of a user",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Maxi Gimenez",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.25.1"
+  }
+}
