@@ -10,3 +10,5 @@ npm install;
 bower install;
 npm run start;
 ```
+
+./node_modules/.bin/electron-packager . GithubNotifyDesktop --ignore=node_modules/electron-prebuilt --icon=icon.icns

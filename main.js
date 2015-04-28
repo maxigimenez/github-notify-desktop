@@ -1,6 +1,7 @@
 var app = require('app'),
     BrowserWindow = require('browser-window'),
-    Tray = require('tray');
+    Tray = require('tray'),
+    path = require('path');
 
 require('crash-reporter').start();
 
@@ -17,7 +18,7 @@ app.on('ready', function() {
         app.dock.hide();
     }
 
-    var tray = new Tray('icon.png');
+    var tray = new Tray(path.join(__dirname, 'icon.png'));
 
     tray.on('clicked', function clicked() {
         if(mainWindow && mainWindow.isVisible()){
