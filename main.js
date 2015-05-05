@@ -6,6 +6,7 @@ var app = require('app'),
 require('crash-reporter').start();
 
 var mainWindow = null;
+var tray = null;
 
 app.on('window-all-closed', function() {
     if (process.platform !== 'darwin') {
@@ -18,7 +19,7 @@ app.on('ready', function() {
         app.dock.hide();
     }
 
-    var tray = new Tray(path.join(__dirname, 'icon.png'));
+    tray = new Tray(path.join(__dirname, 'icon.png'));
 
     tray.on('clicked', function clicked() {
         if(mainWindow && mainWindow.isVisible()){
