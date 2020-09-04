@@ -1,3 +1,5 @@
+**No longer maintained**
+
 # Github Notify for Mac
 
 Same behavior as [github-notify](https://github.com/maxigimenez/github-notify) but now as menu on Mac OS.
